@@ -1,0 +1,40 @@
+@media (max-width: 1280px) {
+  .header {
+    padding: 30px;
+  }
+
+  .home {
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    gap: 30px;
+  }
+
+  .home .informations {
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .projects .container-projects {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .home .informations h1 {
+    font-size: 30px;
+  }
+
+  .home .informations p {
+    font-size: 16px;
+  }
+
+  .home .container-foto img {
+    max-width: 320px;
+  }
+
+  .projects {
+    padding: 30px;
+  }
+}
